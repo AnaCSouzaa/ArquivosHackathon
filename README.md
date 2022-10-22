@@ -1,2 +1,13 @@
-# ArquivosHackathon
-Equipe: Hades
+## Equipe: Hades
+
+Ana Cecília 
+
+Gabriel  
+
+Lucas 
+
+Maria Luiza
+
+Mariana 
+
+Simone
