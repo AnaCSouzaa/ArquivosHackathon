@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+    <link rel="manifest" href="./public/manifest.json">
+    <link rel="shortcut icon" href="./public/favicon.ico">
+    <title>Hades: </title>
+    <link rel="stylesheet" href="./src/styles/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body id="page-home">
+    <div id="loader"></div>
+    <!-- start Quiz button -->
+    <div class="start_btn">
+      <button class="btn" id="button_play">Clique para corrigir os erros</button>
+    </div>
+
+    <!-- Info Box -->
+    <div class="info_box">
+      <div class="info-list">
+       
+        <div class="info">
+         Torne as telas iguais as que foram apresentadas antes de você iniciar o game!
+        </div>
+      </div>
+      <div class="buttons">
+        <button class="quit">Sair</button>
+        <button class="restart"> </button>
+      </div>
+    </div>
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+      
+      <!-- footer of Quiz Box -->
+    </div>
+    <!-- Result Box -->
+    <div class="result_box">
+      <div class="icon">
+        <i class="fas fa-crown"></i>
+      </div>
+      <div class="complete_text">Você completou o Quiz!!</div>    
+      <div class="buttons">
+        <button class="restart">Salvar Quiz</button>
+        <button class="quit">Sair do Quiz</button>
+      </div>
+    </div>
+    <!-- Inside this JavaScript file I've inserted Questions and Options only -->
+    <script src="./src/data/questions.js"></script>
+    <!-- Inside this JavaScript file I've coded all Quiz Codes -->
+    <script src="./src/javascript/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+<html>
+<head>
+<title> Hades Quiz </title>
+</head>
+<script>
+function verifyPassword() {
+  var pw = document.getElementById("pswd").value;
+  //check empty password field
+  if(pw == "") {
+     document.getElementById("message").innerHTML = "Entre com uma senha Válida";
+     return false;
+  }
+  else if(pw == "hackathon") {
+     alert("Senha correta. Parabéns, você concluiu o desafio!!!");
+     return false;
+  }
+  else{
+    alert("Senha Incorreta, Tente Novamente");
+  }
+}
+</script>
+
+<body>
+<center>
+
+<br> </br>
+<br> </br>
+<br> </br>
+<br> </br>
+<br> </br>
+<h1 style="color:black">Hades</h1>
+<h3 style="color:red"><b> ==Para descobrir a palavra facilmente </b></h3>
+<h3 style="color:red"> <b> realize o quiz atentamente==</b></h3>
+
+<form onsubmit ="return verifyPassword()">
+<!-- Enter Password -->
+
+<br> </br>
+<br> </br>
+<br> </br>
+<br> </br>
+<td><b>  Qual a palavra? </b></td>
+<input type = "password" id = "pswd" value = ""> 
+<span id = "message" style="color:red"> </span> <br><br>
+
+<!-- Click to verify valid password -->
+<input type = "submit" value = "Enviar">
+
+<!-- Click to reset fields -->
+<button type = "reset" value = "Apagar" >Apagar</button>
+</form>
+<a href="C:\Users\anace\Desktop\Hackathon\index.html"><button>Ir para o Quiz</button></a>
+</center>
+</body>
+
+<style>
+    body{
+        background-image: url('escape-room.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+</style>
+</html>
+
+ 

@@ -1,0 +1,8 @@
+Algumas cores que você pode precisar: 
+#56a5eb
+#007bff
+#fff
+#ccc
+rgb(255, 255, 255);
+#5bebc9
+#0263ca

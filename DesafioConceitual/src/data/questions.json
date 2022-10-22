@@ -1,0 +1,100 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "category": "Automação",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Qual a principal diferença entre a malha fechada e a malha aberta?",
+      "correct_answer": "A necessidade de haver, ou não, um controlador - H",
+      "incorrect_answers": [
+      "O controle em malha aberta precisa de realimentação, já o outro, não - A", 
+      "O controle em malha fechada não precisa de realimentação, já o outro, sim - J", 
+      "Não existe diferença entre os dois - C"]
+    },
+    {
+      "category": "Desenvolvimento de Sistemas",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Como é feito a declaração de variáveis em C#?",
+      "correct_answer": "tipos de dados + nome da variável ",
+      "incorrect_answers": [
+        "var + nome da variável - C",
+        "var + nome da variável + tipo da variável - H",
+        "DECLARE + nome da variável + tipo da variável - O"
+      ]
+    },
+    {
+      "category": "Desenvolvimento de Sistemas",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Para o que serve os assests no Unity?",
+      "correct_answer": "Para adicionar imagens, personagens, áudio e cenários",
+      "incorrect_answers": [
+      "É o arquivo com a programação do jogo - L",
+      "Configurar os comandos de controle utilizados no jogo - A",
+      "É utilizado para desenvolver jogos mobile- O"]
+    },
+    {
+      "category": "Sistemas Digitais",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Como é feita a montagem de resistor de Pull Up e Pull Down?",
+      "correct_answer": "O resistor fica ligado ao sinal que é desejado fazer a leitura - K",
+      "incorrect_answers": [
+      "O resistor fica ligado ao sinal que não é desejado fazer a leitura - N", 
+      "O resistor de pull up é conectado ao GND e o resistor de pull down ao VCC - A", 
+      "O resistor de pull up é conectado ao VCC e o de pull down não é conectado nem ao VCC nem ao GND - C "]
+    },
+    {
+      "category": "Telecomunicação",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Não posso ser vista, mas posso ser medida, porém  me exergar a medida que o tempo passa é difícil, sou mais visível em outro domínio.",
+      "correct_answer": "Onda eletromagnética - A",
+      "incorrect_answers": [
+       "Corrente elétrica - C",
+       "Tensão - S",
+       "Eletricidade - E"
+      ]
+    },
+    {
+      "category": "Biomédica",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Quais são as dimenções de um intestino e em quantas regiões ele é dividido?",
+      "correct_answer": "6m de comprimento e 4cm de diâmetro, dividido em 3 regiões - T",
+      "incorrect_answers": [
+       "4m de comprimento e 6cm de diâmetro, dividido em 5 regiões - A",
+       "5m de comprimento e 4cm de diâmetro, dividido em 2 regiões - O",
+       "6m de comprimento e 8cm de diâmetro, dividido em 4 regiões - E"]
+    },
+    {
+      "category": "Biomédica",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Qual o nome da doença descrita na frase: Doença que afeta uma criança quando nasce outra?",
+      "correct_answer": "Kwashiorkor - H",
+      "incorrect_answers": ["Schwarzenegger - E", "Marasmo - A", "Donald Kwashiorkor - C"]
+    },
+    {
+      "category": "Automação",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "O que não é considerado um dispositivo de saída?",
+      "correct_answer": "Microcontrolador - O",
+      "incorrect_answers": ["Pistão pneumático - A","esteira industrial - L", "motor de indução trifásico - N"]
+    },
+    {
+      "category": "Sistemas Digitais",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Como é feito o porting do código de acionamento de LED do Arduino para o STM32",
+      "correct_answer": "HAL_GPIO_WritePin(GPIOA, 6, 1); - N",
+      "incorrect_answers": [
+      " HAL_GPIO_Writepin(GPIOA, 6, 1); - A", 
+      " HAL_GPIO_WritePin(GPIOA, 6, 0); - C", 
+      " HAL_GPIO_writePin(GPIOA, 6, 1); - E"]
+    }
+  ]
+}
