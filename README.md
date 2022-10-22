@@ -1,4 +1,3 @@
-# ArquivosHackathon
 ## Equipe: Hades
 
 Ana Cecília 
